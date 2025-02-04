@@ -63,7 +63,7 @@ int main()
     // Loop principal
     while (true)
     {
-        printf("Semáforo em operação... Estado atual: %d\n", estado_led);
+        printf("Semáforo em operação... Estado de led atual: %d\n", estado_led);
         sleep_ms(1000); // Aguarda 1 segundo antes de imprimir novamente
     }
 
